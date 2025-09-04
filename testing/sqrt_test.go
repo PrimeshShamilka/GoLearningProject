@@ -43,5 +43,10 @@ func TestMany(t *testing.T) {
 				t.Errorf("Sqrt(%v) = %v; want %v", tc.value, val, tc.expected)
 			}
 		})
-	}
+	}	
 }
+
+
+/** RUNNING FROM TERMINAL 
+$ go test -v
+**/
