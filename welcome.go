@@ -1,12 +1,12 @@
 package main
 
 import (
+	"GoTestProject/concurrency"
 	"fmt"
-	"GoTestProject/numbers"
 )
 
 func main() {
 	fmt.Println("Welcome to Go!")
-	numbers.CalMean()
+	// numbers.CalMean()
+	concurrency.Main()
 }
-
